@@ -21,7 +21,7 @@
 }
 .dark-blue-label img {
     position: absolute;
-    top: 498.0%; /* Adjust as needed */
+    top: 349.0%; /* Adjust as needed */
     right: 28px; /* Adjust as needed */
     width: 235px; /* Adjust as needed */
     height: 235px; /* Maintain aspect ratio */
@@ -48,7 +48,7 @@
 }
 .Solutions img {
     position: absolute;
-    top: 642.6%; /* Adjust as needed */
+    top: 464%; /* Adjust as needed */
     right: 10px; /* Adjust as needed */
     width: 212px; /* Adjust as needed */
     height: 200px; /* Maintain aspect ratio */
@@ -170,7 +170,7 @@
     width: calc(25% - 20px); /* Fixed width for each label with gap */
     height: 200px; /* Fixed height for each label */
     box-sizing: border-box; /* Include padding in the width */
-    background-color: transparent; /* No background color */
+    background-color: white; /* No background color */
     text-align: center; /* Center text inside labels */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
     overflow: hidden; /* Prevent content overflow */
