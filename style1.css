@@ -1,0 +1,393 @@
+.dark-blue-label {
+    background-color: rgb(7,41,165); /* Dark blue color */
+    color: white; /* White text color */
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding in the width */
+}
+.dark-blue-label h1 {
+    font-size: 3.7em; /* Increase font size */
+    margin-top: 0;
+    font-family:'Monsterrat','sans-serif';
+}
+.dark-blue-label h1 span {
+    font-size: 0.46em; /* Smaller size */
+    color: rgb(184, 241, 255); /* Light blue color */
+    position: absolute;
+    top: 510.6%; /* Adjust this value as needed */
+    left: 32%;
+    transform: translate(-50%, -50%);
+}
+.dark-blue-label img {
+    position: absolute;
+    top: 349.0%; /* Adjust as needed */
+    right: 28px; /* Adjust as needed */
+    width: 235px; /* Adjust as needed */
+    height: 235px; /* Maintain aspect ratio */
+}
+.dark-blue-label p {
+    font-size: 1.1em;
+}
+.Solutions {
+    background-color: rgb(7,41,165); /* Dark blue color */
+    color: white; /* White text color */
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding in the width */
+    margin-bottom: 20px;
+}
+.Solutions h1 {
+    font-size: 3.7em; /* Increase font size */
+    margin-top: 0;
+    font-family:'Monsterrat','sans-serif';
+}
+.Solutions p {
+    font-size: 1.19em;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.card-box {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+    width: 90%; /* Reduce width to 90% */
+    margin: 20px auto; /* Center align with margin */
+}
+
+.card-box h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+    font-family: 'Montserrat', 'sans-serif';
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-box:nth-child(1) h2 {
+    background-color: rgba(219, 219, 255, 0.8); /* Blue background */
+}
+
+.card-box:nth-child(2) h2 {
+    background-color: rgba(255, 255, 224, 0.8); /* Yellow background */
+}
+
+.card-box:nth-child(3) h2 {
+    background-color: rgba(253, 224, 224, 0.8); /* Red background */
+}
+
+.card-box:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.card-box:nth-child(1):hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 255, 0.8); /* Blue shadow on hover */
+}
+
+.card-box:nth-child(2):hover {
+    box-shadow: 0 8px 16px rgba(255, 255, 0, 0.8); /* Yellow shadow on hover */
+}
+
+.card-box:nth-child(3):hover {
+    box-shadow: 0 8px 16px rgba(255, 0, 0, 0.8); /* Red shadow on hover */
+}
+
+.card-box p {
+    font-size: 1em;
+    margin: 10px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-box .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-box ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    margin: 12px 0;
+    width: calc(33.333% - 40px);
+}
+
+.card-box ul li {
+    font-size: 14px;
+}
+
+
+.item h2{
+    background-color: rgb(251, 235, 251);
+    padding: 20px;
+    margin-top: 70px; /* This will move the pink background up */
+    font-size: 1.1em; /* Adjust as needed */
+    margin: 0; /* Remove top margin */
+    padding: 10px; /* Add padding for better readability */            
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 10px 10px 0 0;
+    text-align:center;
+}
+
+.item:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
+}
+
+.item ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    margin: 12px 23px;
+    width: calc(33.333% - 40px); /* Adjust width to fit three columns */
+}
+.item ul li {
+    font-size: 14px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between; /* Space out items evenly */
+}
+.half1 h2{
+    background-color: rgba(223, 254, 223, 0.8);
+    padding: 30px;
+    margin-top: 0; /* This will move the pink background up */
+    font-size: 1.2em; /* Adjust as needed */
+    margin: 0; /* Remove top margin */
+    padding: 10px; /* Add padding for better readability */            
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 10px 10px 0 0;
+    text-align:center;
+}
+
+.half1:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
+}
+.half1 p{
+    font-size:14px;
+    margin-bottom:10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.half2 p{
+    margin-bottom: 10px;
+    font-size:14px;
+}
+.half2 h2{
+    background-color: rgb(253, 224, 224, 0.8);
+    padding: 20px;
+    margin-top: 70px; /* This will move the pink background up */
+    font-size: 1.2em; /* Adjust as needed */
+    text-align:center;
+    margin-top: 40;
+    margin: 0; /* Remove top margin */
+    padding: 10px; /* Add padding for better readability */            
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 10px 10px 0 0;
+}
+.half2:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
+}
+.item:hover{
+    box-shadow:0 8px 16px rgba(238, 130, 238, 0.8);
+}
+.half1:hover{            
+    box-shadow:0 8px 16px rgba(0, 255, 0, 0.8);
+}
+.half2:hover{            
+    box-shadow: 0 8px 16px rgba(255, 0, 0, 0.8);
+}
+.item h2{
+    background-color: rgb(251, 235, 251);
+}
+.half1 h2{
+    background-color: rgba(223, 254, 223, 0.8);
+}
+.half2 h2{
+    background-color: rgba(253, 224, 224, 0.8);
+}
+.label-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of boxes */
+    justify-content: space-around; /* Space between the labels */
+    align-items: flex-start; /* Align labels to the top */
+    gap: 20px; /* Space between labels */
+    padding: 20px; /* Padding for container */
+    background-color: solid rgb(245, 245, 245); /* Light background color */
+    width: 90%; /* Reduce width to 90% */
+    margin: 0 auto; /* Center the container */
+}
+
+.label {
+    position: relative; /* Position for absolute child */
+    border: 2px solid rgb(230, 230, 230); /* Blue border */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    width: calc(25% - 20px); /* Fixed width for each label with gap */
+    height: 200px; /* Fixed height for each label */
+    box-sizing: border-box; /* Include padding in the width */
+    background-color: white; /* No background color */
+    text-align: center; /* Center text inside labels */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    overflow: hidden; /* Prevent content overflow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+    z-index: 0; /* Ensure it's behind other labels */
+}
+.label:hover {
+    transform: scale(1.1); /* Scale up on hover */
+    z-index: 1; /* Ensure it appears above other labels */
+}
+.label:nth-child(1):hover {
+    box-shadow: 0 8px 16px rgba(238, 130, 238, 0.8); /* Violet shadow on hover */
+}
+.label:nth-child(2):hover {
+    box-shadow: 0 8px 16px rgba(75, 0, 130, 0.8); /* Indigo shadow on hover */
+}
+.label:nth-child(3):hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 255, 0.8); /* Blue shadow on hover */
+}
+.label:nth-child(4):hover {
+    box-shadow: 0 8px 16px rgba(0, 255, 0, 0.8); /* Green shadow on hover */
+}
+.label:nth-child(5):hover {
+    box-shadow: 0 8px 16px rgba(255, 255, 0, 0.8); /* Yellow shadow on hover */
+}
+.label:nth-child(6):hover {
+    box-shadow: 0 8px 16px rgba(255, 157, 0, 0.8); /* Yellow shadow on hover */
+}
+.label:nth-child(7):hover {
+    box-shadow: 0 8px 16px rgba(255, 0, 0, 0.8); /* Yellow shadow on hover */
+}
+.label:nth-child(1) h3 {
+    background-color: rgb(251, 235, 251);/* Indigo background */
+}
+.label:nth-child(2) h3 {
+    background-color: rgba(247, 236, 254, 0.993);/* Indigo background */
+}
+.label:nth-child(3) h3 {
+    background-color: rgba(219, 219, 255, 0.8);/* Indigo background */
+}
+.label:nth-child(4) h3 {
+    background-color: rgba(223, 254, 223, 0.8);/* Indigo background */
+}
+.label:nth-child(5) h3 {
+    background-color: rgba(255, 255, 224, 0.8);/* Indigo background */
+}
+.label:nth-child(6) h3 {
+    background-color: rgba(255, 243, 223, 0.8);/* Indigo background */
+}
+.label:nth-child(7) h3 {  
+    background-color: rgba(253, 224, 224, 0.8);/* Indigo background */
+}
+.label h3 {
+    font-size: 1.1em;
+    margin: 0; /* Remove top margin */
+    padding: 10px; /* Add padding for better readability */
+    color: black; /* Default text color for h3 */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 10px 10px 0 0;
+}
+.label p {
+    font-size: 14px;
+    margin-top: 10px;
+    white-space: normal; /* Allow wrapping of text */
+    overflow: visible; /* Show overflowing text */
+} 
+
+/* Responsive design */
+@media (max-width: 1200px) {
+    .label {
+        flex: 1 1 calc(45% - 40px); /* Two boxes per row */
+    }
+}
+
+@media (max-width: 768px) {
+    .dark-blue-label h1 {
+        font-size: 2.5em;
+    }
+
+    .dark-blue-label h1 span {
+        font-size: 0.4em;
+        top: 460%;
+        left: 50%;
+    }
+
+    .dark-blue-label img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .Solutions h1 {
+        font-size: 2.5em;
+    }
+
+    .label {
+        flex: 1 1 100%; /* One box per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .dark-blue-label h1 {
+        font-size: 2em;
+    }
+
+    .dark-blue-label h1 span {
+        font-size: 0.35em;
+        top: 440%;
+        left: 50%;
+    }
+
+    .dark-blue-label img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .Solutions h1 {
+        font-size: 2em;
+    }
+
+    .label-container {
+        width: 100%; /* Full width */
+    }
+
+    .label {
+        flex: 1 1 100%; /* One box per row */
+        padding: 10px;
+    }
+
+    .label h3 {
+        font-size: 1.2em;
+    }
+
+    .label p {
+        font-size: 0.9em;
+    }
+
+    .card-box ul,
+    .half1 ul,
+    .half2 ul,
+    .item ul {
+        width: 100%; /* Full width for lists */
+        padding-left: 20px; /* Adjust padding for readability */
+    }
+}
