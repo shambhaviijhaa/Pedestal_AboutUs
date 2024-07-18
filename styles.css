@@ -2,21 +2,22 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: rgb(219, 234, 247);
 }
 
 .section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 20px;
-    background-color: #ffffff;
+    padding: 30px 20px;
+    background-color: rgb(219, 234, 247);
     border-bottom: 1px solid #eaeaea;
+    margin-bottom: 30px; /* Increased margin-bottom for more separation between sections */
 }
 
 .section-title {
-    font-size: 36px;
-    color: #333;
+    font-size: 30px;
+    color: rgb(37, 53, 238);
     margin-bottom: 20px;
 }
 
@@ -28,6 +29,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     background-color: #ffffff;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .section-image {
@@ -35,7 +37,7 @@ body {
 }
 
 .section-image img {
-    width: 300px;
+    width: 250px;
     height: auto;
     border-radius: 10px;
 }
@@ -46,30 +48,20 @@ body {
 }
 
 .section-description p {
-    font-size: 16px;
+    font-size: 14px;
     color: #555;
     line-height: 1.5;
 }
 
-.section-title {
-    font-size: 36px;
-    color: rgb(37, 53, 238); /* Changed color */
-    margin-bottom: 20px;
-}
-
-
-/* .section:nth-child(even) .section-content {
-    flex-direction: row-reverse;
-} */
-
 .our-values {
     text-align: center;
-    padding: 50px 20px;
-    background-color: #ffffff;
+    padding: 30px 20px;
+    background-color: rgb(219, 234, 247);
+    margin-bottom: 30px; /* Increased margin-bottom for more separation */
 }
 
 .our-values .section-title {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .values-container {
@@ -83,11 +75,16 @@ body {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-    padding: 19px;
+    margin: 10px;
+    padding: 20px;
     width: 200px;
     text-align: center;
-    flex: 0 0 auto;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.value-card:hover {
+    transform: scale(1.05);
+    z-index: 1;
 }
 
 .value-card img {
@@ -108,6 +105,39 @@ body {
     color: #777;
 }
 
+/* Hover effects for VIBGYOR colors */
+.violet-hover .section-content:hover {
+    box-shadow: 0 8px 16px rgba(238, 130, 238, 0.8);
+    transform: scale(1.05);
+    z-index: 1;
+}
+
+.indigo-hover .section-content:hover {
+    box-shadow: 0 8px 16px rgba(75, 0, 130, 0.8);
+    transform: scale(1.05);
+    z-index: 1;
+}
+
+.blue-hover:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 255, 0.8);
+}
+
+.green-hover:hover {
+    box-shadow: 0 8px 16px rgba(0, 255, 0, 0.8);
+}
+
+.yellow-hover:hover {
+    box-shadow: 0 8px 16px rgba(255, 255, 0, 0.8);
+}
+
+.orange-hover:hover {
+    box-shadow: 0 8px 16px rgba(255, 157, 0, 0.8);
+}
+
+.red-hover:hover {
+    box-shadow: 0 8px 16px rgba(255, 0, 0, 0.8);
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     .section-content {
@@ -117,7 +147,7 @@ body {
 
     .section-image img {
         width: 100%;
-        max-width: 300px;
+        max-width: 250px;
         margin-bottom: 20px;
     }
 
@@ -127,6 +157,7 @@ body {
 
     .values-container {
         flex-direction: column;
+        align-items: center;
     }
 
     .value-card {
@@ -138,15 +169,15 @@ body {
 
 @media (max-width: 480px) {
     .section-title {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .section-description p {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .value-card h3 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .value-card p {
