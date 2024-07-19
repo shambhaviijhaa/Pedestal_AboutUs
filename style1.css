@@ -9,6 +9,7 @@
 .dark-blue-label h1 {
     font-size: 3.7em; /* Increase font size */
     margin-top: 0;
+    margin-left: 5%;
     font-family:'Monsterrat','sans-serif';
 }
 .dark-blue-label h1 span {
@@ -28,6 +29,7 @@
 }
 .dark-blue-label p {
     font-size: 1.1em;
+    margin-left: 5%;
 }
 .Solutions {
     background-color: rgb(7,41,165); /* Dark blue color */
@@ -41,10 +43,12 @@
 .Solutions h1 {
     font-size: 3.7em; /* Increase font size */
     margin-top: 0;
+    margin-left: 5%;
     font-family:'Monsterrat','sans-serif';
 }
 .Solutions p {
     font-size: 1.19em;
+    margin-left: 5%;
 }
 
 .container {
