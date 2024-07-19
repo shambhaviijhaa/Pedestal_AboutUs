@@ -202,7 +202,9 @@ body {
     margin-top: 20px;
     color: var (--footer-text-color);
 }
-
+.footer .contact-info h4 {
+    margin-left: 50px; 
+}
 @media (max-width: 768px) {
     .header img {
         margin-top: -10%;
