@@ -321,6 +321,7 @@
 @media (max-width: 1200px) {
     .label {
         flex: 1 1 calc(45% - 40px); /* Two boxes per row */
+
     }
 }
 
@@ -376,6 +377,7 @@
     .label {
         flex: 1 1 100%; /* One box per row */
         padding: 10px;
+        overflow: hidden; /* Hide overflow */
     }
 
     .label h3 {
