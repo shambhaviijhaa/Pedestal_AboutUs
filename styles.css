@@ -226,13 +226,13 @@ body {
     padding: 30px 20px;
     background-color: rgb(219, 234, 247);
     border-bottom: 1px solid #eaeaea;
-    margin-bottom: 30px; /* Increased margin-bottom for more separation between sections */
+    margin-bottom: -40px;
 }
 
 .section-title {
     font-size: 36px;
     color: rgb(7 41 165);
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .section-content {
@@ -275,7 +275,7 @@ body {
 }
 
 .our-values .section-title {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .values-container {
