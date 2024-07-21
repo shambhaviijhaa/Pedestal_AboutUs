@@ -179,7 +179,8 @@
 
 .row {
     display: flex;
-    justify-content: space-between; /* Space out items evenly */
+   justify-content:center; /* Space out items evenly */
+   gap: 0px;
 }
 .half1 h2{
     background-color: rgba(223, 254, 223, 0.8);
@@ -389,7 +390,7 @@
     }
 
     .label-container {
-        width: 100%; /* Full width */
+        width: 80%; /* Full width */
     }
 
     .label {
@@ -413,5 +414,11 @@
         width: 100%; /* Full width for lists */
         padding-left: 20px; /* Adjust padding for readability */
     }
+}
+@media(max-width:480px){
+    .label{
+        width: 50%;
+        padding:10px
+     }
 }
  
