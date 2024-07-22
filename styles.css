@@ -498,4 +498,14 @@ body {
     .value-card p {
         font-size: 12px;
     }
+    .values-container{
+        width:80%;
+        padding:10px;
+    }
+    .navbar .auth-buttons button {
+        margin-left:2%;
+        margin-right:1%;
+
+        padding: 6px 5px;
+    }
 }
