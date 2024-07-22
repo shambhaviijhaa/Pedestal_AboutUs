@@ -150,6 +150,7 @@ body {
 
 .container1 {
     display: flex;
+    
     margin-left: 5%;
     width: 90%; /* 5% margin on both sides */
     margin-top: 20px;
@@ -157,16 +158,18 @@ body {
 
 .box1 {
     border: 1px solid #ffffff;
-    padding: 20px; /* Add padding to the boxes */
+    padding: 20px;
     width: 50%; /* Adjust width to fit the screen without margin between boxes */
     text-align: center;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
     background-color: #fff;
+    margin: -0.4%; /* Remove any default margin */
+
 }
 
 .box1 img {
     max-width: 100%;
-    height: auto;
+    height: 98%;
 }
 
 .main-heading {
