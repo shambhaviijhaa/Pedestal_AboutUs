@@ -214,6 +214,28 @@ body {
     max-width: 100%;
     height: auto;
 }
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    width: 90%; /* 5% margin on both sides */
+    margin-top: 20px;
+}
+
+.box4 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 46%; /* Adjust width to fit the screen without margin between boxes */
+    text-align: center;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 0; /* Remove any default margin */
+}
+
+.box4 img {
+    max-width: 100%;
+    height: auto;
+}
 
 .footer {
     background-color: var(--footer-background);
