@@ -1,16 +1,26 @@
-.dark-blue-label {
-    background-color: rgb(7,41,165); /* Dark blue color */
+.dark-blue-label,
+.Solutions {
+    background-color: rgb(7, 41, 165); /* Dark blue color */
     color: white; /* White text color */
     padding: 20px;
     border-radius: 5px;
     width: 100%; /* Full width */
     box-sizing: border-box; /* Include padding in the width */
+    margin-bottom: 20px;
 }
-.dark-blue-label h1 {
+
+.dark-blue-label h1,
+.Solutions h1 {
     font-size: 3.7em; /* Increase font size */
     margin-top: 0;
     margin-left: 5%;
-    font-family:'Monsterrat','sans-serif';
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.dark-blue-label p,
+.Solutions p {
+    font-size: 1.1em;
+    margin-left: 5%;
 }
 .dark-blue-label h1 span {
     font-size: 0.46em; /* Smaller size */
@@ -26,29 +36,6 @@
     right: 28px; /* Adjust as needed */
     width: 235px; /* Adjust as needed */
     height: 235px; /* Maintain aspect ratio */
-}
-.dark-blue-label p {
-    font-size: 1.1em;
-    margin-left: 5%;
-}
-.Solutions {
-    background-color: rgb(7,41,165); /* Dark blue color */
-    color: white; /* White text color */
-    padding: 20px;
-    border-radius: 5px;
-    width: 100%; /* Full width */
-    box-sizing: border-box; /* Include padding in the width */
-    margin-bottom: 20px;
-}
-.Solutions h1 {
-    font-size: 3.7em; /* Increase font size */
-    margin-top: 0;
-    margin-left: 5%;
-    font-family:'Monsterrat','sans-serif';
-}
-.Solutions p {
-    font-size: 1.19em;
-    margin-left: 5%;
 }
 
 .container {
@@ -133,100 +120,198 @@
 .item h2{
     background-color: rgb(251, 235, 251);
     padding: 20px;
-    margin-top: 70px; /* This will move the pink background up */
-    font-size: 1.1em; /* Adjust as needed */
-    margin: 0; /* Remove top margin */
-    padding: 10px; /* Add padding for better readability */            
-    top: 0;
-    left: 0;
-    right: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+    width: 90%; /* Reduce width to 90% */
+    margin: 20px auto; /* Center align with margin */
+    max-width: 100%;
+}
+
+.card-box h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+    font-family: 'Montserrat', 'sans-serif';
+    text-align: center;
+    padding: 10px;
     border-radius: 10px 10px 0 0;
-    text-align:center;
 }
 
-.item:hover {
-    transform: scale(1.05); /* Scale up on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
-}
 
-.item ul {
-    list-style-type: disc;
-    padding-left: 40px;
-    margin: 12px 23px;
-    width: calc(33.333% - 40px); /* Adjust width to fit three columns */
+.card-box p {
+    font-size: 1em;
+    margin: 10px 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-.item ul li {
-    font-size: 14px;
-}
-
 .row {
-    display: flex;
+   display: flex;
+   justify-content:center; /* Space out items evenly */
+   gap: 0px;
+}
+.Key-Features {
+    display: block;
     justify-content: space-between; /* Space out items evenly */
 }
-.half1 h2{
-    background-color: rgba(223, 254, 223, 0.8);
-    padding: 30px;
-    margin-top: 0; /* This will move the pink background up */
-    font-size: 1.2em; /* Adjust as needed */
-    margin: 0; /* Remove top margin */
-    padding: 10px; /* Add padding for better readability */            
-    top: 0;
-    left: 0;
-    right: 0;
-    border-radius: 10px 10px 0 0;
-    text-align:center;
+.card-box h3 {
+    font-size: 1em;
+    text-align: start;   
+}
+.container1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 10px;
+}
+.text-box {
+    width: 60%;
+}
+.title{
+    margin-top: -15px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.Key-Features,h1{
+    font-size: 15px;
 }
 
-.half1:hover {
-    transform: scale(1.05); /* Scale up on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
+.in-box {
+    position: absolute;
+    top: -14%;
+    right: 4.2%;
+    bottom: -25%;
+    left: 64.1%;
+    display: block;
+    background-color: white; /* Light gray background */
+    border: 1px rgba(255, 255, 255, 0.269);    /* Light gray border */
+    padding: 30px;  
+    margin: 11% 2%;             /* Margin outside the box */ 
+    box-shadow: 2px 2px 12px rgba(255, 255, 255, 0); /* Subtle shadow */
 }
-.half1 p{
-    font-size:14px;
-    margin-bottom:10px;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-.half2 p{
-    margin-bottom: 10px;
-    font-size:14px;
-}
-.half2 h2{
-    background-color: rgb(253, 224, 224, 0.8);
+
+.main-content {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: white;
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
     padding: 20px;
-    margin-top: 70px; /* This will move the pink background up */
-    font-size: 1.2em; /* Adjust as needed */
-    text-align:center;
-    margin-top: 40;
-    margin: 0; /* Remove top margin */
-    padding: 10px; /* Add padding for better readability */            
-    top: 0;
+    text-align: center;
+}
+
+.title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.list li {
+    font-size: 12px;
+    color: #333333;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.list li::before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    color: #007bff;
+    position: absolute;
     left: 0;
-    right: 0;
-    border-radius: 10px 10px 0 0;
+    top: 0;
 }
-.half2:hover {
+
+.app-buttons {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.app-buttons button {
+    padding: 5px 70px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.app-buttons .google-play {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+}
+
+
+
+.image-section {
+    margin-bottom: 20px;
+}
+
+.image-section img {
+    width: 70%;
+    border-radius: 5px;
+}
+@media (max-width: 768px) {
+    .container1 {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .container1 {
+        grid-template-columns: 1fr; /* Full width on very small screens */
+    }
+}
+
+.card-box:nth-child(1) h2 {
+    background-color: rgba(219, 219, 255, 0.8); /* Blue background */
+}
+
+.card-box:nth-child(2) h2 {
+    background-color: rgba(255, 255, 224, 0.8); /* Yellow background */
+}
+
+.card-box:nth-child(3) h2 {
+    background-color: rgba(253, 224, 224, 0.8); /* Red background */
+}
+.card-box:nth-child(4) h2 {
+    background-color: rgba(224, 246, 253, 0.8); /* blue background */
+}
+.card-box:hover {
     transform: scale(1.05); /* Scale up on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
 }
-.item:hover{
-    box-shadow:0 8px 16px rgba(238, 130, 238, 0.8);
+
+.card-box:nth-child(1):hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 255, 0.8); /* Blue shadow on hover */
 }
-.half1:hover{            
-    box-shadow:0 8px 16px rgba(0, 255, 0, 0.8);
+
+.card-box:nth-child(2):hover {
+    box-shadow: 0 8px 16px rgba(255, 255, 0, 0.8); /* Yellow shadow on hover */
 }
-.half2:hover{            
-    box-shadow: 0 8px 16px rgba(255, 0, 0, 0.8);
+
+.card-box:nth-child(3):hover {
+    box-shadow: 0 8px 16px rgba(255, 0, 0, 0.8); /* Red shadow on hover */
 }
-.item h2{
-    background-color: rgb(251, 235, 251);
+.card-box:nth-child(4):hover {
+    box-shadow: 0 8px 16px rgba(0, 162, 255, 0.8); /* Blue shadow on hover */
 }
-.half1 h2{
-    background-color: rgba(223, 254, 223, 0.8);
-}
-.half2 h2{
-    background-color: rgba(253, 224, 224, 0.8);
-}
+
 .label-container {
     display: flex;
     flex-wrap: wrap; /* Allow wrapping of boxes */
@@ -234,6 +319,7 @@
     align-items: flex-start; /* Align labels to the top */
     gap: 20px; /* Space between labels */
     padding: 20px; /* Padding for container */
+    width: 80%; /* Reduce width to 90% */
     width: 90%; /* Reduce width to 90% */
     margin: 0 auto; /* Center the container */
 }
@@ -317,6 +403,7 @@
     overflow: visible; /* Show overflowing text */
 }
 
+
 /* Responsive design */
 @media (max-width: 1200px) {
     .label {
@@ -325,75 +412,38 @@
     }
 }
 
+/* Responsive design */
+@media (max-width: 1200px) {
+    .card-box ul {
+        width: 45%; /* Two columns */
+    }
+}
+
 @media (max-width: 768px) {
-    .dark-blue-label h1 {
-        font-size: 2.5em;
-    }
-
-    .dark-blue-label h1 span {
-        font-size: 0.4em;
-        top: 460%;
-        left: 50%;
-    }
-
-    .dark-blue-label img {
-        width: 180px;
-        height: 180px;
-    }
-
+    .dark-blue-label h1,
     .Solutions h1 {
         font-size: 2.5em;
     }
 
-    .label {
-        flex: 1 1 100%; /* One box per row */
+    .card-box ul {
+        width: 100%; /* One column */
+        padding-left: 20px; /* Adjust padding for readability */
     }
 }
 
 @media (max-width: 480px) {
-    .dark-blue-label h1 {
-        font-size: 2em;
-    }
-
-    .dark-blue-label h1 span {
-        font-size: 0.35em;
-        top: 440%;
-        left: 50%;
-    }
-
-    .dark-blue-label img {
-        width: 150px;
-        height: 150px;
-    }
-
+    .dark-blue-label h1,
     .Solutions h1 {
         font-size: 2em;
     }
 
-    .label-container {
-        width: 100%; /* Full width */
-    }
-
-    .label {
-        flex: 1 1 100%; /* One box per row */
-        padding: 10px;
-        overflow: hidden; /* Hide overflow */
-    }
-
-    .label h3 {
-        font-size: 1.2em;
-    }
-
-    .label p {
-        font-size: 0.9em;
-    }
-
-    .card-box ul,
-    .half1 ul,
-    .half2 ul,
-    .item ul {
-        width: 100%; /* Full width for lists */
+    .card-box ul {
+        width: 100%; /* One column */
         padding-left: 20px; /* Adjust padding for readability */
     }
+
+    .card-box {
+        width: 100%; /* Full width */
+        padding: 10px;
+    }
 }
- 
