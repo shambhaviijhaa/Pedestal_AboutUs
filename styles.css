@@ -57,6 +57,7 @@ body {
     border-radius: 4px;
 }
 
+
 .navbar .auth-buttons {
     display: flex;
     align-items: center;
@@ -136,6 +137,107 @@ body {
 
 .extra-section p {
     color: grey;
+}
+
+.main-heading {
+    font-size: 36px;
+    color: rgb(7 41 165);
+    margin-bottom: 25px;
+    text-align: center;
+    
+    margin-top: 20px;
+}
+
+.container1 {
+    display: flex;
+    
+    margin-left: 5%;
+    width: 90%; /* 5% margin on both sides */
+    margin-top: 20px;
+}
+
+.box1 {
+    border: 1px solid #ffffff;
+    padding: 20px;
+    width: 50%; /* Adjust width to fit the screen without margin between boxes */
+    text-align: center;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: -0.4%; /* Remove any default margin */
+
+}
+
+.box1 img {
+    max-width: 100%;
+    height: 98%;
+}
+
+.main-heading {
+    font-size: 36px;
+    color: rgb(7 41 165);
+    margin-bottom: 25px;
+    text-align: center;
+    
+    margin-top: 20px;
+}
+
+.container2 {
+    display: flex;
+    
+    margin-left: 5%;
+    width: 90%; /* 5% margin on both sides */
+    margin-top: 20px;
+}
+
+.box2 {
+    border: 1px solid #ffffff;
+    padding: 20px;
+    width: 50%; /* Adjust width to fit the screen without margin between boxes */
+    text-align: center;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 0; /* Remove any default margin */
+}
+
+.box2 img {
+    max-width: 100%;
+    height: 98%;
+}
+.box3 {
+    border: 1px solid #ffffff;
+    padding: 20px;
+    width: 50%; /* Adjust width to fit the screen without margin between boxes */
+    text-align: center;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 0; /* Remove any default margin */
+}
+
+.box3 img {
+    max-width: 100%;
+    height: auto;
+}
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    width: 90%; /* 5% margin on both sides */
+    margin-top: 20px;
+}
+
+.box4 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 46%; /* Adjust width to fit the screen without margin between boxes */
+    text-align: center;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 0; /* Remove any default margin */
+}
+
+.box4 img {
+    max-width: 100%;
+    height: auto;
 }
 
 .footer {
@@ -386,6 +488,9 @@ body {
 @media (max-width: 480px) {
     .section-title {
         font-size: 24px;
+    }
+    .main-heading {
+        font-size: 16px;
     }
 
     .section-description p {
