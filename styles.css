@@ -150,6 +150,7 @@ body {
 
 .container1 {
     display: flex;
+    
     margin-left: 5%;
     width: 90%; /* 5% margin on both sides */
     margin-top: 20px;
@@ -157,16 +158,18 @@ body {
 
 .box1 {
     border: 1px solid #ffffff;
-    padding: 20px; /* Add padding to the boxes */
+    padding: 20px;
     width: 50%; /* Adjust width to fit the screen without margin between boxes */
     text-align: center;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
     background-color: #fff;
+    margin: -0.4%; /* Remove any default margin */
+
 }
 
 .box1 img {
     max-width: 100%;
-    height: auto;
+    height: 98%;
 }
 
 .main-heading {
@@ -211,6 +214,28 @@ body {
 }
 
 .box3 img {
+    max-width: 100%;
+    height: auto;
+}
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    width: 90%; /* 5% margin on both sides */
+    margin-top: 20px;
+}
+
+.box4 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 46%; /* Adjust width to fit the screen without margin between boxes */
+    text-align: center;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 0; /* Remove any default margin */
+}
+
+.box4 img {
     max-width: 100%;
     height: auto;
 }
@@ -464,6 +489,9 @@ body {
     .section-title {
         font-size: 24px;
     }
+    .main-heading {
+        font-size: 16px;
+    }
 
     .section-description p {
         font-size: 12px;
@@ -475,5 +503,20 @@ body {
 
     .value-card p {
         font-size: 12px;
+    }
+    .values-container{
+        width:80%;
+        padding:10px;
+    }
+    .navbar .auth-buttons button {
+        margin-left:2%;
+        margin-right:1%;
+
+        padding: 6px 5px;
+    }
+}
+@media (max-width:330px){
+    .search-bar{
+        display:none !important;
     }
 }
