@@ -61,8 +61,6 @@
 .card-box {
     background-color: white;
     color: black;
-<<<<<<< HEAD
-=======
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -137,7 +135,6 @@
 
 .item h2{
     background-color: rgb(251, 235, 251);
->>>>>>> 358792eec2ad2d412803244bcf14e4be0dedd732
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
