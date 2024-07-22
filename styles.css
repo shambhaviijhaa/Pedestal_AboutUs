@@ -515,3 +515,8 @@ body {
         padding: 6px 5px;
     }
 }
+@media (max-width:330px){
+    .search-bar{
+        display:none !important;
+    }
+}
