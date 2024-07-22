@@ -83,6 +83,7 @@ body {
     color: white;
     padding: 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
 }
 
 .header img {
@@ -201,7 +202,9 @@ body {
     margin-top: 20px;
     color: var (--footer-text-color);
 }
-
+.footer .contact-info h4 {
+    margin-left: 50px; 
+}
 @media (max-width: 768px) {
     .header img {
         margin-top: -10%;
@@ -225,13 +228,13 @@ body {
     padding: 30px 20px;
     background-color: rgb(219, 234, 247);
     border-bottom: 1px solid #eaeaea;
-    margin-bottom: 30px; /* Increased margin-bottom for more separation between sections */
+    margin-bottom: -40px;
 }
 
 .section-title {
     font-size: 36px;
     color: rgb(7 41 165);
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .section-content {
@@ -274,12 +277,12 @@ body {
 }
 
 .our-values .section-title {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .values-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
 }
@@ -395,5 +398,15 @@ body {
 
     .value-card p {
         font-size: 12px;
+    }
+    .values-container{
+        width:80%;
+        padding:10px;
+    }
+    .navbar .auth-buttons button {
+        margin-left:2%;
+        margin-right:1%;
+
+        padding: 6px 5px;
     }
 }
