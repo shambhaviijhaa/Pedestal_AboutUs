@@ -148,6 +148,39 @@ body {
     margin-top: 20px;
 }
 
+.card-box h3 {
+    font-size: 1em;
+    text-align: start;
+    margin: 20px;
+}
+
+.smart-bridge-container {
+    display: flex;
+  }
+  
+  .smart-content, .smart-icon {
+    flex: 1;
+    width: 50%;
+  }
+  
+  .smart-content {
+    padding: 20px;
+  }
+  
+  .smart-icon img {
+    max-width: 90%;
+    max-height: 70%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+.smart-icon img:nth-child(2) {
+    transform: rotate(90deg);
+    margin-left: 10px; /* Optional: Add some space between the images */
+  }
+  
+
 .container1 {
     display: flex;
     
