@@ -35,4 +35,3 @@ let slideIndex = 0;
     // Initialize and set automatic sliding
     showSlides(slideIndex);
     slideInterval = setInterval(nextSlide, 3000); // Change slide every 3 seconds
- 
