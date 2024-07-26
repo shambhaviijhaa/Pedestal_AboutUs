@@ -117,8 +117,8 @@
     border-radius: 10px 10px 0 0;
 }
 
-/*img in smartbridge*/
-.card-box-box {
+ /*img in smartbridge*/
+ .card-box-box {
     background-color: white;
     color: black;
     padding: 20px;
@@ -157,12 +157,12 @@
     margin-left: -1% ;
     margin-bottom: -1%;
 }
-.box h3{
+.box10 h3{
     margin-top: auto;
     font-size: 20px;
     background-color: white;
 }
-.box ul li{
+.box10 ul li{
     font-size: 17px;
 }
  
@@ -207,7 +207,7 @@ button.BUTTON {
     font-size: 16px; /* Adjust font size */
     text-align: center; /* Center the text */
 }
-.box {
+.box10 {
     
     padding: 10px 10px;
     margin: 1px;
@@ -216,7 +216,7 @@ button.BUTTON {
     flex-wrap: wrap;
 }
 
-.box li {
+.box10 li {
     
     padding: 1px 1px; /* Adjust padding as needed */
     flex: 1 1 50%; /* Make each list item a block element */
@@ -236,29 +236,61 @@ button.BUTTON {
         height: auto; /* Adjust height automatically */
         margin-left: 20px; /* Adjust margin for alignment */
     }
-    .box h3{
+    .box10 h3{
         margin-top: auto;
         font-size: 20px;
         background-color: white;
     }
-    .box {
+    .box10 {
+        width: 70%; /* Take remaining width */
+    }
+}
+
+@media (min-width: 1200px) {
+    .outer-box {
+        flex-direction: row; /* Align items side by side */
+        width: 100%;
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .image-container {
+        width: 40%; /* Fixed width for larger screens */
+        height: auto; /* Adjust height automatically */
+        margin-left: 20px; /* Adjust margin for alignment */
+        size: -initial;
+    }
+    .box10 h3{
+        margin-top: auto;
+        font-size: 20px;
+        background-color: white;
+    }
+    .box10 {
         width: 70%; /* Take remaining width */
     }
 }
 @media (max-width: 400px) {
+    .card-box-box ul {
+        width: 100%; /* One column */
+        padding-left: 20px; /* Adjust padding for readability */
+    }
+    
+    .card-box-box {
+        width: 100%; /* Full width */
+        padding: 10px;
+    }
     .outer-box {
         flex-direction: column; /* Stack elements vertically on very small screens */
     }
-    .image-container, .box {
+    .image-container, .box10 {
         width: 100%; /* Full width on very small screens */
         margin-right: 0; /* Remove right margin */
         flex-direction: row;
     }
-    .box h3{
+    .box10 h3{
         font-size: 13px;
         margin-bottom: auto;
     }
-    .box ul li{
+    .box10 ul li{
         font-size: 8.3px; /* Smaller font size for very small screens */
     }
     .image{
@@ -271,6 +303,12 @@ button.BUTTON {
 }
 
  /*end of smartbridge img*/
+
+@media (max-width: 768px) {
+    .container1 {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust for smaller screens */
+    }
+}
 
 @media (max-width: 480px) {
     .container1 {
@@ -288,6 +326,9 @@ button.BUTTON {
 
 .card-box:nth-child(3) h2 {
     background-color: rgba(253, 224, 224, 0.8); /* Red background */
+}
+.card-box:nth-child(4) h2 {
+    background-color: rgba(224, 246, 253, 0.8); /* blue background */
 }
 .card-box:hover {
     transform: scale(1.05); /* Scale up on hover */
@@ -445,6 +486,7 @@ button.BUTTON {
     }
     
 } /*styling end of our academic partners*/
+
 
 /* Responsive design */
 @media (max-width: 1200px) {
