@@ -553,3 +553,104 @@ body {
         display:none !important;
     }
 }
+/*network employer*/
+.network-employers-container {
+    position: relative;
+    max-width: 90%;
+    margin: auto;
+    background: rgb(219, 234, 247);
+    overflow: hidden;
+  }
+
+  .employer-slides {
+    display: flex;
+    transition: transform 1s ease-in-out;
+    margin-bottom: -0.9%;
+    height: auto;
+  }
+
+  .slide {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    background-color: rgb(219, 234, 247);
+    padding: 0;
+    margin: 0;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%; /* Reduce the width for smaller boxes */
+    max-width: 120px; /* Set a smaller max width */
+    height: auto; /* Remove fixed height */
+    margin: 1%;
+  }
+
+  .box img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures the image covers the box without distortion */
+  }
+
+  body {
+    background-color: rgb(219, 234, 247);
+  }
+
+  .dots {
+    text-align: center;
+    padding: 0;
+    background: rgb(219, 234, 247);
+    margin-top: 1.5%;
+  }
+
+  .dot {
+    display: inline-block;
+    width: 9.5px;
+    height: 9.5px;
+    margin: 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .dot.active {
+    background-color: #717171;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .box {
+      width: 45%; /* Stack boxes vertically on small screens */
+      margin: 5% auto;
+    }
+    .dot {
+      width: 9px;
+      height: 9px;
+    }
+  }
+
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .box {
+      width: 30%; /* Adjust box width on medium screens */
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .box {
+      width: 20%; /* Adjust box width on larger screens */
+    }
+  }
+
+  /* Override specific image styles */
+  .box img[alt="Network Employer 7"] {
+    width: 100%;
+  }
+
+  .box img[alt="Network Employer 9"] {
+    width: 100%;
+  }
+
