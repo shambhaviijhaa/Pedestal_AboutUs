@@ -7,24 +7,43 @@
   <title>About Us</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="side-menu.css">
+
 </head>
 <body>
   <div class="navbar">
     <div class="logo">
-        <img src="../Pedestal_AboutUs/assets/images/logoPedestal.png" alt="Pedestal Logo">
+        <img src="./assets/images/logoPedestal.png" alt="Pedestal Logo">
         
     </div>
     <div class="search-bar">
         <input type="text" placeholder="Search Courses">
     </div>
     <div class="auth-buttons">
-        <button onclick="location.href='#'">Login</button>
-        <button onclick="location.href='#'">Register</button>
+        <button onclick="location.href='index1.html'">Login</button>
+        <button onclick="location.href='index2.html'">Register</button>
     </div>
+    <nav>
+      <input type="checkbox" id="sidebar-active">
+      <label for="sidebar-active" class="open-sidebar-button">
+      <svg xmlns="http://www.w3.org/2000/svg" id="menu" height="32" viewBox="0 -960 960 960" width="32"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+      </label>
+      <label id="overlay" for="sidebar-active"></label>
+      <div class="links-container">
+          <label for="sidebar-active" class="close-sidebar-button">
+              <svg xmlns="http://www.w3.org/2000/svg" id="close" height="32" viewBox="0 -960 960 960" width="32"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+          </label>
+          <a class="home-link" href="index1.html">Login</a> 
+          <a class="home-link" href="index2.html">Register</a>
+          <a href="https://shambhaviijhaa.github.io/Pedestal_AboutUs/">About Us</a> 
+          <a href="https://pinochiio.github.io/Pedestal_CoursePage/">Courses</a>
+          <a href="https://kirti-456.github.io/ContactUs_pedestal/">Contact Us</a>      
+      </div>
+  </nav>
 </div>
 
 <header class="header">
-    <img src="../Pedestal_AboutUs/assets/images/header.png" alt="Pedestal Techno World Pvt Ltd">
+    <img src="./assets/images/header.png" alt="Pedestal Techno World Pvt Ltd">
     <div class="header-content">
         <h2>The Pedestal</h2>
         <h1>About us</h1>
@@ -48,7 +67,7 @@
     <h2 class="section-title">Our Mission</h2>
     <div class="section-content">
       <div class="section-image">
-        <img src="../Pedestal_AboutUs/assets/images/mission.jpg" alt="Our Mission">
+        <img src="./assets/images/mission.jpg" alt="Our Mission">
       </div>
       <div class="section-description">
         <p>Our mission is to provide best in tech based user friendly all kind of higher professional courses Online, Offline & Campus Connect skill development program in India, our aim is to develop a bench-mark in higher professional education industry as well as we are working to reduce the gap between industry and institutes. Our mission comprises of improved performance, spearhead expansions, collaboration and implement training, support, digital education and business consultancy over the globe.</p>
@@ -63,7 +82,7 @@
             <p>Our vision is to revolutionize education by harnessing the power of technology by skill development. We aim to be the foremost provider of transformative educational experiences, empowering learners of all ages and backgrounds to thrive in a rapidly evolving digital world. Our commitment is to create innovative, accessible, and personalized learning solutions that inspire curiosity, unlock potential, and build a brighter future for generations to come.</p>
         </div>
         <div class="section-image">
-          <img src="../Pedestal_AboutUs/assets/images/vision.jpg" alt="Our Vision">
+          <img src="./assets/images/vision.jpg" alt="Our Vision">
         </div>
     </div>
   </div>
@@ -72,27 +91,27 @@
     <h2 class="section-title">Our Values</h2>
     <div class="values-container">
       <div class="value-card blue-hover">
-        <img src="../Pedestal_AboutUs/assets/images/Integrity.png" alt="Integrity">
+        <img src="./assets/images/Integrity.png" alt="Integrity">
         <h3>Integrity</h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, magni!</p>
       </div>
       <div class="value-card green-hover">
-        <img src="../Pedestal_AboutUs/assets/images/Excellence.png" alt="Excellence">
+        <img src="./assets/images/Excellence.png" alt="Excellence">
         <h3>Excellence</h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, magni!</p>
       </div>
       <div class="value-card yellow-hover">
-        <img src="../Pedestal_AboutUs/assets/images/Innovation.png" alt="Innovation">
+        <img src="./assets/images/Innovation.png" alt="Innovation">
         <h3>Innovation</h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, magni!</p>
       </div>
       <div class="value-card orange-hover">
-        <img src="../Pedestal_AboutUs/assets/images/Customer.png" alt="Customer-Centricity">
+        <img src="./assets/images/Customer.png" alt="Customer-Centricity">
         <h3>Customer-Centricity</h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, magni!</p>
       </div>
       <div class="value-card red-hover">
-        <img src="../Pedestal_AboutUs/assets/images/TeamWork.png" alt="Team-Work">
+        <img src="./assets/images/TeamWork.png" alt="Team-Work">
         <h3>Team-Work</h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, magni!</p>
       </div>
@@ -100,7 +119,7 @@
   </div>
   <div class="dark-blue-label">
     <h1>Problems</h1>
-   
+   <h3><span>in Existing Marketplace</span></h3>
     <!--<img class="second-img" src="your-second-image-url.jpg" alt="Second Image Description">-->
     <p>The challenges faced by individuals in finding the right career or securing employment often stem from a variety of factors.<br>Addressing these issues requires collaboration between industries and educational institutions to bridge the gap. Here  <br> are some common problems:-</p>
 </div>
@@ -174,32 +193,40 @@
       <p>The Placement Guarantee Program offered by Pedestal Techno World is an initiative designed to bridge the gap between industries and students in the ever-evolving landscape of technology and management. Freshers undergo rigorous training sessions, workshops, and hands-on projects to enhance their proficiency and readiness for the professional environment. The Placement Guarantee Program offers students the assurance of securing placement in a particular job role within the industry upon successful completion of the training. This initiative not only empowers students with relevant skills but also provides them with a direct pathway to kick-start their careers in the corporate world.</p>
       <p>By fostering strong partnerships with companies and prioritizing the professional development of students, Pedestal Techno World aims to facilitate seamless transitions from academia to industry, ultimately contributing to the growth and success of both students and businesses alike.</p>
   </div>
-  <div class="card-box">
-    <h2>4. Smart Bridge - Mobile App</h2>
-    <p>Smart Bridge App is an online platform which has various coding, language and other tech skill development resources for students, teachers and schools. Coding isn't just about computers-it's about building vital skills. It sharpens problem-solving skills, fuels creativity, and boosts math & writing abilities. Through coding, student learn persistence and adaptability as they debug and improve their projects. Coding sets them up for success in a tech-driven world, where digital literacy is key. Integrating coding into education gives student a powerful edge, equipping them with the tools they need to thrive both academically and professionally.</p>
-    <h3>Key-Features</h3>
-        <div class="Key-Features">
-            <ul>
-                <li>2 classes per week</li>
-                <li>Live Classes</li>
-                <li>4 Coding quizzes</li>
-                <li>Session notes</li>
-            </ul>
-            <ul>
-                <li>Access to complete coding module</li>
-                <li>Unlimited doubt sessions</li>
-                <li>Certificates of completion</li>
-                <li>Easy EMI options available</li>
-            </ul>
-            <ul>
-                <li>Access to complete coding module</li>
-                <li>Expert-designed, project-based curriculum</li>
-                <li>Parent Teacher Meet</li>
-                <li>Parents Access</li>
-            </ul>
-        </div>
-</div>
-</div>
+    <div class="card-box-box">
+      <h2>4. Smart Bridge - Mobile App</h2>
+      <p>Smart Bridge App is an online platform which has various coding, language and other tech skill development resources for students, teachers and schools. Coding isn't just about computers-it's about building vital skills. It sharpens problem-solving skills, fuels creativity, and boosts math & writing abilities. Through coding, student learn persistence and adaptability as they debug and improve their projects. Coding sets them up for success in a tech-driven world, where digital literacy is key. Integrating coding into education gives student a powerful edge, equipping them with the tools they need to thrive both academically and professionally.</p>
+      <div class="outer-box">
+        <div class="box10">
+          <h3>Key-Features
+                <ul style="font-weight: normal;">
+                  <li>• 2 classes per week</li>
+                  <li>• Live Classes</li>
+                  <li>• 4 Coding quizzes</li>
+                  <li>• Session notes</li>
+                  <li>• Access to complete coding module</li>
+                  <li>• Unlimited doubt sessions</li>
+                  <li>• Certificates of completion</li>
+                  <li>• Easy EMI options available</li>
+                  <li>• Easy EMI options available</li>
+                  <li>• Access to complete coding module</li>
+                  <li>• Expert-designed, project-based curriculum</li>
+                  <li>• Parent Teacher Meet</li>
+                  <li>• Parents Access</li>
+              </ul>
+            </h3> 
+          </div>
+          <div class="image-container">
+            <a href="https://play.google.com/store/apps/details?id=co.lazarus.glrmy" target="_blank" class="clickable-area">
+              <div class="image">
+                <img src="assets/images/pedestalimg.png" alt="ss">
+                <button class="BUTTON">Download</button>
+              </div>
+            </a>
+          </div>
+        </div>   
+    </div>
+  </div>
 
 
 
@@ -207,45 +234,164 @@
 <div class="container3">
   <div class="box4">
       <h2>LIFE CYCLE</h2>
-      <img src="../Pedestal_AboutUs/assets/images/lifecycle.jpeg" alt="Image 1">
+      <img src="./assets/images/lifecycle.jpeg" alt="Image 1">
   </div>
   <div class="box4">
       <h2>SUCCESS STORY</h2>
-      <img src="../Pedestal_AboutUs/assets/images/successStory.png" alt="Image 2">
+      <img src="./assets/images/successStory.png" alt="Image 2">
   </div>
 </div>
 <partner class = "partner">
   <h1 class="main-heading">Our Academic Partners</h1>
-<div class="container1">
-    <div class="box1">
-        
-        <img src="../Pedestal_AboutUs/assets/images/academicPartner.png" alt="Image 1">
-    </div>
-    <div class="box1">
-       
-        <img src="../Pedestal_AboutUs/assets/images/academicP2.png" alt="Image 2">
-    </div>
+  <!-- code for the Our Academic Partners Container -->
+<div class="width-container">
+  <div class="partners-logos">
+    <img src="assets/images/Skill_India.png" alt="skillindia">
+    <img src="assets/images/eskert.jpeg" alt="eskert">
+    <img src="assets/images/dir.jpg" alt="dir">
+    <img src="assets/images/nsdc.png" alt="nsdc">
+    <img src="assets/images/googl.png" alt="google-partner">
+    <img src="assets/images/icicibank.png" alt="icici-bank">
+    <img src="assets/images/digitalguru.png" alt="digital-guru">
+  </div>
 </div>
 <h1 class="main-heading">Our Network Employers</h1>
-    <div class="container2">
-        <div class="box2">
-            <img src="../Pedestal_AboutUs/assets/images/NetworkP1.png" alt="Image 1">
-        </div>
-        <div class="box3">
-            <img src="../Pedestal_AboutUs/assets/images/N2.png" alt="Image 2">
-        </div>
+<div class="network-employers-container">
+  <div class="employer-slides">
+    <div class="slide">
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/amazon.jpg" alt="Network Employer 1">
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/shcert.jpg" alt="Network Employer 12">
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/jiofiber.jpg" alt="Network Employer 2">
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/oliria.jpg" alt="Network Employer 3">
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/pura.jpg" alt="Network Employer 4">
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/cadbury.jpg" alt="Network Employer 5">
+      </div>
     </div>
+    <div class="slide">
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/accent1.jpg" alt="Network Employer 6" >
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/catapult.jpg" alt="Network Employer 7">
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/1stindia.jpg" alt="Network Employer 8">
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/euro.jpg" alt="Network Employer 9">
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/wikcliver.jpg" alt="Network Employer 10">
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/firstlease.jpg" alt="Network Employer 11">
+      </div>
+    </div>
+    <div class="slide">
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/bigboybikes.png" alt="Network Employer 13">
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/newchip.png" alt="Network Employer 14">
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/cognizant.jpg" alt="Network Employer 15">
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/adib.jpg" alt="Network Employer 16">
+      </div>
+      
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/erekrut.png" alt="Network Employer 17">
+      </div>
+    </div>
+    <div class="slide">
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/v2v.jpg" alt="Network Employer 18" >
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/omg.jpg" alt="Network Employer 19">
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/valeo.jpg" alt="Network Employer 20">
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/orlandoh.jpg" alt="Network Employer 21">
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/deltinroyale.jpg" alt="Network Employer 22">
+      </div>
+    </div>
+    <div class="slide">
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/fiovex.jpg" alt="Network Employer 23" >
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/scelec.png" alt="Network Employer 24">
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/cundall.jpg" alt="Network Employer 25">
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/fronius.jpg" alt="Network Employer 26">
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/orbenergy.jpg" alt="Network Employer 27">
+      </div>
+     
+    </div>
+    <div class="slide">
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/advik.jpg" alt="Network Employer 28" >
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/otis.png" alt="Network Employer 29">
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/nh.png" alt="Network Employer 30">
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/letiz.png" alt="Network Employer 10">
+      </div>
+      <div class="box">
+        <img src="../Pedestal_AboutUs/assets/images/vestas.png" alt="Network Employer 32">
+      </div>
+    </div>
+    <!-- Add more slides as needed -->
+  </div>
+  <div class="dots">
+    <span class="dot" onclick="currentSlide(0)"></span>
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <!-- Add more dots as needed -->
+  </div>
+</div>
+
 </partner>
 <br>
   <footer class="footer">
-    <div class="container">
-        <div class="column">
-            <img src="../Pedestal_AboutUs/assets/images/logoPedestal.png" alt="Pedestal Logo" width="150"> <br/>
+    <div class="footer-container">
+        <div class="footer-column">
+            <img src="./assets/images/logoPedestal.png" alt="Pedestal Logo" width="150"> <br/>
            <p>
             Pedestal Techno World Private Limited India's Leading EdTech Company An EdTech Platform is bridging to reduce the gap between industries and higher Skilled Students & Professionals. We have full scale approach by leveraging content, technology, quality education, industrial real time learning, industry trends exposure and placement guarantee at scale in partnership under mentorship of industry experts.
            </p>
         </div>
-        <div class="column">
+        <div class="footer-column">
             <h4>Quick Links</h4>
             <p><a href="#">About Pedestal</a></p>
             <p><a href="#">Course Category</a></p>
@@ -255,7 +401,7 @@
             <p><a href="#">Privacy Policy</a></p>
             <p><a href="#">Refund Policy</a></p>
         </div>
-        <div class="column">
+        <div class="footer-column">
             <h4>Popular Categories</h4>
             <p><a href="#">Digital Marketing</a></p>
             <p><a href="#">Coding</a></p>
@@ -263,7 +409,7 @@
             <p><a href="#">Business Development</a></p>
             <p><a href="#">Data Science</a></p>
         </div>
-        <div class="column contact-info">
+        <div class="footer-column contact-info">
             <h4>Need Help? Get in Touch</h4>
             <p>Have questions about teaching and career opportunities?</p>
             <p>📞 <a href="tel:+919929934909">+91-9929934909</a></p>
