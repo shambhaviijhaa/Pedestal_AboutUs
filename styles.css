@@ -559,6 +559,11 @@ body {
         display:none !important;
     }
 }
+@media (min-width: 480px) {
+    .footer-column p, .footer-column a {
+        font-size: 1.em;
+  }
+
 /*network employer*/
 .network-employers-container {
     position: relative;
