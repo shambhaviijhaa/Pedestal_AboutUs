@@ -1,0 +1,500 @@
+@media(min-width:700px) and (max-width:900px){
+    .footer .contact-info h4{
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .header img {
+        margin-top: -10%;
+        margin-left: -20%;
+        width: 140%;
+        height: 300px;
+    }
+
+    .header-content h1, .header-content h2 {
+        font-size: 1.5em;
+    }
+
+    .footer .container {
+        flex-direction: column;
+    }
+}
+@media (max-width: 768px) {
+    .section-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section-image img {
+        width: 100%;
+        max-width: 250px;
+        margin-bottom: 20px;
+    }
+
+    .section-description {
+        margin: 0;
+    }
+
+    .values-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .value-card {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 24px;
+    }
+    .main-heading {
+        font-size: 16px;
+    }
+
+    .section-description p {
+        font-size: 12px;
+    }
+
+    .value-card h3 {
+        font-size: 16px;
+    }
+
+    .value-card p {
+        font-size: 12px;
+    }
+    .values-container{
+        width:80%;
+        padding:10px;
+    }
+    .navbar .auth-buttons button {
+        margin-left:2%;
+        margin-right:1%;
+
+        padding: 6px 5px;
+    }
+}
+@media (max-width:330px){
+    .search-bar{
+        display:none !important;
+    }
+}
+@media (min-width: 480px) {
+    .footer-column p, .footer-column a {
+        font-size: 1.em;
+  }
+}
+  @media (max-width: 600px) {
+    .box {
+      width: 45%; /* Stack boxes vertically on small screens */
+      margin: 5% auto;
+    }
+    .dot {
+      width: 9px;
+      height: 9px;
+    }
+  }
+
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .box {
+      width: 30%; /* Adjust box width on medium screens */
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .box {
+      width: 20%; /* Adjust box width on larger screens */
+    }
+  }
+
+  @media (min-width: 769px) {
+    .outer-box {
+        flex-direction: row; /* Align items side by side */
+        width: 100%;
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .image-container {
+        width: 30%; /* Fixed width for larger screens */
+        height: auto; /* Adjust height automatically */
+        margin-left: 20px; /* Adjust margin for alignment */
+    }
+    .box10 h3{
+        margin-top: auto;
+        font-size: 20px;
+        background-color: white;
+    }
+    .box10 {
+        width: 70%; /* Take remaining width */
+    }
+}
+
+@media (min-width: 1200px) {
+    .outer-box {
+        flex-direction: row; /* Align items side by side */
+        width: 100%;
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .image-container {
+        width: 40%; /* Fixed width for larger screens */
+        height: auto; /* Adjust height automatically */
+        margin-left: 20px; /* Adjust margin for alignment */
+        size: -initial;
+    }
+    .box10 h3{
+        margin-top: auto;
+        font-size: 20px;
+        background-color: white;
+    }
+    .box10 {
+        width: 70%; /* Take remaining width */
+    }
+}
+@media (max-width: 400px) {
+    .card-box-box ul {
+        width: 100%; /* One column */
+        padding-left: 20px; /* Adjust padding for readability */
+    }
+    
+    .card-box-box {
+        width: 100%; /* Full width */
+        padding: 10px;
+    }
+    .outer-box {
+        flex-direction: column; /* Stack elements vertically on very small screens */
+    }
+    .image-container, .box10 {
+        width: 100%; /* Full width on very small screens */
+        margin-right: 0; /* Remove right margin */
+        flex-direction: row;
+    }
+    .box10 h3{
+        font-size: 13px;
+        margin-bottom: auto;
+    }
+    .box10 ul li{
+        font-size: 8.3px; /* Smaller font size for very small screens */
+    }
+    .image{
+        width: 230px;
+        height: 420px;
+    }
+    button.BUTTON{
+        width: 100%;
+    }
+}
+
+ /*end of smartbridge img*/
+
+@media (max-width: 768px) {
+    .container1 {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .container1 {
+        grid-template-columns: 1fr; /* Full width on very small screens */
+    }
+}
+@media (max-width: 480px) {
+    .partners-logos img{
+        width: 25px;
+        margin: 0;
+        transform: translateY(-40px);
+    }
+    .partners-logos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 0.10px;
+    }
+    .width-container{
+        max-height: 50px;
+        padding-top: 1px;
+    }
+    
+} /*styling end of our academic partners*/
+
+
+/* Responsive design */
+@media (min-width:500px) and (max-width: 1200px) {
+    .label {
+        flex: 1 1 calc(45% - 40px); /* Two boxes per row */
+
+    }
+}
+@media(max-width:500px){
+.label{
+    flex: 1 1 calc(100% - 20px);
+}
+}
+
+@media(max-width:300px){
+    .label{
+        width:50px;
+       
+    }
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+    .card-box ul {
+        width: 45%; /* Two columns */
+    }
+}
+
+@media (max-width: 768px) {
+    .dark-blue-label h1,
+    .Solutions h1 {
+        font-size: 2.5em;
+    }
+
+    .card-box ul {
+        width: 100%; /* One column */
+        padding-left: 20px; /* Adjust padding for readability */
+    }
+}
+
+@media (max-width: 480px) {
+    .dark-blue-label h1,
+    .Solutions h1 {
+        font-size: 2em;
+    }
+
+    .card-box ul {
+        width: 100%; /* One column */
+        padding-left: 20px; /* Adjust padding for readability */
+    }
+
+    .card-box {
+        width: 80%; /* Full width */
+        padding: 10px;
+    }
+}
+@media (max-width:1200px){
+    .image-container{
+        width:40%;
+
+    }
+    
+    .image{
+       width:100%;
+    }
+    .image button{
+        width:102%;
+    }
+}
+@media (max-width:1000px){
+    .image img{
+        height:90%;
+    }
+    .image{
+        height:90%;
+    }
+}
+@media (min-width: 600px) and(max-width:900px){
+    .image{
+        margin-top:5%;
+    }
+    .image img{
+        margin-top:10%;
+    }
+}
+@media(max-width: 800px){
+    .box10 ul li{
+        font-size:14px;
+    }
+    
+}
+@media (max-width:760px){
+    .image-container{
+        margin-left:30%;
+    }
+}
+@media (max-width:700px){
+    .image button{
+        font-size:8px;
+    }
+    
+}
+@media(max-width:480px){
+    .image button{
+        padding:5px;
+        width:105%;
+    }
+    .image img{
+        margin-bottom: -8%;
+    }
+}
+@media(max-width:450px){
+    .card-box-box{
+        width:80%;
+    }
+}
+@media (max-width:400px){
+    .box4 h2{
+        font-size:12px;
+    }
+}
+@media(max-width:390px){
+    .box10 ul li{
+        font-size:12px;
+    }
+}
+@media (max-width:350px){
+    .box10{
+       margin-left:0%;
+        padding:0px;
+    }
+    .box10 ul{
+        margin-right:10%;
+    }
+}
+@media (max-width:320px){
+    .box10 ul li{
+        font-size:11px;
+    }
+    .row ul li{
+        font-size:14px;
+    }
+    .box10{
+        width:0%;
+    }
+}
+@media(max-width :300px){
+    .box10 ul li{
+        font-size: 10px;
+    }
+    
+}
+@media (max-width: 469px) {
+    .navbar .auth-buttons button {
+        display: none;
+    }
+    .home-link {
+        display: block;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .welcome-box h1 {
+        font-size: 2.5em;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .welcome-box {
+        order: -1;
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+        margin-bottom: 2%;
+    }
+    .login-box {
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+        margin-bottom: 20px;
+    }
+    .register-box {
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (max-device-height: 794px) {
+    .logo img {
+        height: 40px;
+    }
+    .welcome-box h1 {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .login-box, .welcome-box , .register-box {
+        padding: 15px;
+    }
+    .input-group input {
+        padding: 3px;
+        font-size: 10px; /* Adjust font size for smaller screens */
+    }
+    .welcome-box h1 {
+        font-size: 1.8em;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .login-box, .welcome-box , .register-box{
+        padding: 15px;
+    }
+    .input-group input {
+        padding: 3px;
+        font-size: 10px; /* Adjust font size for smaller screens */
+    }
+    .welcome-box h1 {
+        font-size: 1.8em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .login-box, .welcome-box , .register-box{
+        padding: 10px;
+    }
+    .login-form , .register-form{
+        margin: 0; /* Ensure no extra margin causing overflow */
+    }
+    .input-group input {
+        padding: 3px;
+        font-size: 10px; /* Adjust font size for smaller screens */
+    }
+    .login-button , .register-button{
+        padding: 8px;
+        font-size: 14px;
+    }
+    .welcome-box h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    
+    .input-group input {
+        padding: 3px;
+        font-size: 10px; /* Adjust font size for smaller screens */
+    }
+    .welcome-box h1 {
+        font-size: 1.2em;
+    }
+    .welcome-box p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-device-width: 414px) {
+    .container {
+        width: 95%;
+    }
+    .input-group input {
+        padding: 3px;
+        font-size: 10px; /* Adjust font size for smaller screens */
+    }
+    .logo img {
+        height: 45px;
+    }
+    .welcome-box h1 {
+        font-size: 2.2em;
+    }
+}
