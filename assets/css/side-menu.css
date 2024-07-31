@@ -89,11 +89,3 @@ nav a{
     justify-content: flex-start;
   }
 
-@media (max-width: 469px) {
-    .navbar .auth-buttons button {
-        display: none;
-    }
-    .home-link {
-        display: block;
-    }
-}
